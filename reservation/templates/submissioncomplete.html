@@ -1,0 +1,21 @@
+<!-- templates/submissioncomplete.html -->
+{% extends 'basea.html' %}
+
+{% block title %}
+    <!-- お問い合わせ送信完了画面のタイトル -->
+    <h1>送信完了</h1>
+{% endblock %}
+
+{% block content %}
+ <!-- メインコンテンツ -->
+ <main>
+    <p>お問い合わせメールを送信しました</p>
+    
+    <!-- トップページに遷移するボタン -->
+    <form action="mainmenu.html" method="get">
+        <button type="submit">トップページへ</button>
+    </form>
+</main>
+{% endblock %}
+
+   
